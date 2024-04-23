@@ -38,8 +38,8 @@ export const Icon = ({link, icon}: IconNetwork ) => {
 export function SocialIcons() {
   return(
     <>
-      {IconsData.map((icon) => (
-        <Icon link={icon.link} icon={icon.icon} />
+      {IconsData.map((icon, index) => (
+        <Icon link={icon.link} icon={icon.icon} key={index} />
       ))}
     </>
   )

@@ -22,7 +22,7 @@ export function SkillsMarquee() {
       <Marquee speed={60}>
         <div className="flex gap-10 md:gap-20 p-3">
           {SkillsIconData.map((icon) => (
-            <SkillsIcon name={icon.name} icon={icon.icon} />
+            <SkillsIcon name={icon.name} icon={icon.icon} key={icon.name} />
           ))}
         </div>
       </Marquee>
