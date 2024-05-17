@@ -7,7 +7,7 @@ import { SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiVite } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
-
+import { SiTypescript } from "react-icons/si";
 export interface dataCardsProps{
   projeto: string;
   nome: string;
@@ -23,7 +23,7 @@ export const dataCards:dataCardsProps[] = [
     projeto: "Locadora de veículos",
     nome: "Vrum-Drive",
     descricao: "Um projeto que está sendo desenvolvido em grupo para a faculdade. Nesse projeto contribuí para o Front-end e Back-end utilizando Next.js e PHP.",
-    tecnologias: [<IoLogoReact />,<SiNextdotjs />,<RiTailwindCssFill /> ,<FaPhp />, <SiMysql /> ],
+    tecnologias: [<SiTypescript key={1} />,<IoLogoReact key={2} />,<SiNextdotjs key={3}  />,<RiTailwindCssFill key={4} /> ,<FaPhp key={5} />, <SiMysql key={6} /> ],
     midia: {
       principal: "/projetos/vrumdrive/home-pc.png",
       desktop: "/projetos/vrumdrive/home-desktop-dark.png",
@@ -40,7 +40,7 @@ export const dataCards:dataCardsProps[] = [
     projeto: "Pokedex API",
     nome: "Pokemon-World.API",
     descricao: "Um projeto focado em praticar chamada de API's.",
-    tecnologias: [<IoLogoJavascript />, <SiVite />, <RiTailwindCssFill />, <SiStyledcomponents />],
+    tecnologias: [<IoLogoJavascript key={7}/>,<IoLogoReact key={8} />, <SiVite key={9} />, <RiTailwindCssFill key={10} />, <SiStyledcomponents key={11} />],
     midia: {
       principal: "/projetos/pokeapi/aboutpokemon-desktop.png",
       desktop: "/projetos/pokeapi/home-desktop.png",
