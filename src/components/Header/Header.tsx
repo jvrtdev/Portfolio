@@ -20,7 +20,7 @@ export default function Header(){
 
 
   return(
-      <div className="w-full h-[80px] p-1 px-7  bg-opacity-45 backdrop-blur-lg border-b shadow-md border-[#ffffff37] fixed z-50 top-0 bg-[#003366] text-white flex justify-center">
+      <div className="w-full h-[80px] p-1 px-7  bg-opacity-80 backdrop-blur-xl border-b shadow-md border-[#ffffff37] fixed z-50 top-0 bg-[#003366] text-white flex justify-center">
         <div className="w-full max-w-screen-2xl flex items-center justify-between">
           <Image src={logoJv} alt="logo jv" className="mt-[8px]"  />
 
