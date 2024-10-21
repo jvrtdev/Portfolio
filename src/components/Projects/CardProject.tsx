@@ -9,8 +9,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Button } from "../ui/button"
 import Link from "next/link"
+import { Button } from "../ui/button"
 
 export default function CardProject({
   projeto,
@@ -22,25 +22,19 @@ export default function CardProject({
   links,
 }: dataCardsProps) {
   return (
-    <div
-      className={`w-full xl:max-w-max shadow-xl border border-slate-400 rounded-3xl p-10 ${align} mb-20`}
-    >
-      <div
-        className={`flex flex-col md:flex-row justify-beetween ${
-          align == "self-end" ? "flex-row-reverse" : ""
-        }`}
-      >
+    <div className="w-full max-w-screen-xl shadow-xl border border-slate-400 rounded-3xl p-10 mb-10">
+      <div className="flex flex-col md:flex-row  justify-between  ">
         <div>
           <h1 className="font-bold text-xl md:text-2xl xl:text-3xl text-[#003366]">
             {projeto}
           </h1>
           <h2 className="text-md font-medium md:text-xl">{nome}</h2>
-          <p className="md:text-xl mt-2 max-w-md">{descricao}</p>
+          <p className="font-normal mt-2 max-w-md">{descricao}</p>
           <div className="flex text-4xl gap-2 my-3 text-[#003366] ">
             {tecnologias}
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="max-w-fit max-h-fit flex flex-col items-center ">
           <Carousel className="max-w-[600px]">
             <CarouselContent className="flex items-center">
               <CarouselItem>
@@ -49,7 +43,7 @@ export default function CardProject({
                   alt={midia}
                   width={600}
                   height={600}
-                  className=""
+                  className="m-auto"
                 />
               </CarouselItem>
               <CarouselItem>
@@ -58,7 +52,7 @@ export default function CardProject({
                   alt={midia}
                   width={600}
                   height={600}
-                  className=""
+                  className="m-auto"
                 />
               </CarouselItem>
               <CarouselItem>
