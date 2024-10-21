@@ -6,7 +6,7 @@ import dataCards from "./data-cards"
 export default function Projetos() {
   return (
     <Element name="Projetos" className="mt-10">
-      <div className="w-full max-w-screen-2xl flex flex-col items-center py-20 px-8">
+      <div className="w-full max-w-screen-2xl flex flex-col items-center py-20 px-8 mx-auto">
         <h1 className="font-bold text-3xl md:text-3xl xl:text-4xl mb-20 text-[#003366]">
           Projetos
         </h1>
