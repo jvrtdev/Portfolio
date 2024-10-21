@@ -1,13 +1,19 @@
 import { ReactNode } from "react"
-import { FaPhp } from "react-icons/fa"
-import { SiNextdotjs } from "react-icons/si"
-import { IoLogoJavascript } from "react-icons/io5"
-import { IoLogoReact } from "react-icons/io5"
-import { SiMysql } from "react-icons/si"
+import { FaAngular, FaPhp } from "react-icons/fa"
+import { IoLogoJavascript, IoLogoReact } from "react-icons/io5"
 import { RiTailwindCssFill } from "react-icons/ri"
-import { SiVite } from "react-icons/si"
-import { SiStyledcomponents } from "react-icons/si"
-import { SiTypescript } from "react-icons/si"
+import {
+  SiFirebase,
+  SiIonic,
+  SiMysql,
+  SiNestjs,
+  SiNextdotjs,
+  SiPostgresql,
+  SiPrisma,
+  SiStyledcomponents,
+  SiTypescript,
+  SiVite,
+} from "react-icons/si"
 export interface dataCardsProps {
   projeto: string
   nome: string
@@ -74,6 +80,35 @@ export const dataCards: dataCardsProps[] = [
       demo: "https://pokedex-world.vercel.app/",
     },
   },
+  // {
+  //   projeto: "Gerenciador de Eventos de TI e Rede social",
+  //   nome: "eventNet",
+  //   descricao:
+  //     "O eventNet é um aplicativo mobile completo para gestão de eventos, permitindo que os usuários criem eventos, inscrevam-se e interajam com outros participantes através de chat em tempo real. Nesse projeto adquiri conhecimento em Ionic + Angular na parte do desenvolvimento mobile. No backend adquiri conhecimento em novos padrões de arquitetura, padrões criacionais, websockets e boas práticas de código limpo.",
+  //   tecnologias: [
+  //     <SiTypescript key={12} />,
+  //     <FaAngular key={13} />,
+  //     <SiIonic key={14} />,
+  //     <RiTailwindCssFill key={15} />,
+  //     <SiNestjs key={16} />,
+  //     <SiPostgresql key={17} />,
+  //     <SiPrisma key={18} />,
+  //     <SiFirebase key={19} />,
+  //   ],
+  //   midia: {
+  //     principal: "/projetos/eventnet/photo1.png1 ",
+  //     desktop: "/projetos/eventnet/photo2.png1",
+  //     mobile: [
+  //       "/projetos/eventnet/photo3.png",
+  //       "/projetos/eventnet/photo4.png",
+  //     ],
+  //     gifs: ["/projetos/eventnet/photo5.png", "/projetos/eventnet/photo6.png"],
+  //   },
+  //   links: {
+  //     github: "https://github.com/jvrtdev/eventNet",
+  //     demo: "",
+  //   },
+  // },
 ]
 
 export default dataCards
